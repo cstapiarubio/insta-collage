@@ -1,6 +1,15 @@
 *{
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(to bottom left,#4DAB7A , #BB6239 );
 	font-family: 'Pangolin', cursive; 
+	
+}
+
+body{
+	background: linear-gradient(to bottom left, #4DAB7A, #BB6239);
+	background-repeat: no-repeat;
+}
+
+#container{
+	text-align: center;
 }
