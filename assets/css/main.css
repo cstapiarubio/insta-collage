@@ -2,14 +2,42 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Pangolin', cursive; 
-	
+	color: white;	
 }
 
 body{
-	background: linear-gradient(to bottom left, #4DAB7A, #BB6239);
+	background: linear-gradient(to bottom, #9FE722, #BB6239);
 	background-repeat: no-repeat;
+	background-size: cover;
+	height: 2000px;
 }
 
-#container{
+.container{
 	text-align: center;
+	display: inline;
+}
+
+#encabezado{
+	height: 50px;
+}
+
+#logo-principal{
+	height: 50px;
+}
+
+#logo-principal img{
+	width: 300px;
+}
+
+#inputs{
+	height: 50px;
+}
+
+#facebook{
+	height: 50px;
+}
+
+#boton button{
+	background-color: transparent;
+	width: 100px;
 }
