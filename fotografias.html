@@ -2,78 +2,96 @@
 <html>
 <head>
 	<title>Insta-collage</title>
-	<!--Font Awesome-->
+	<!--fuentes (google fonts)-->
+	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+	<!--iconos (fonts awesome)-->
 	<script src="https://use.fontawesome.com/2c0c95ddaa.js"></script>
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="assets/css/design.css">
 </head>
 <body>
-<!--HEADER -->
- <header>
-    <div class="container">
-      <div class="row">
+	<!--HEADER -->
+	<header>
+		<div class="container" class="col-md-12 col-sm-12 col-xs-12">
+			<div class="row" class="col-md-12 col-sm-12 col-xs-12">
 
-        <div id="header" class="col-md-12 col-sm-12 col-xs-12">
-        <p>9:41 AM</p>
-         <i class="fa fa-battery-empty" aria-hidden="true"></i>
-        </div>
-      </div>
-    </div>
-  </header>
+				<div id="header" class="col-md-12 col-sm-12 col-xs-12">
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle-thin" aria-hidden="true"></i>
+					<p>9:41 AM</p>
+					<i class="fa fa-battery-empty" aria-hidden="true"></i>
+				</div>
 
-  <section id="bannerflog">
-    <div class="container">
-      <div class="col-md-12 text-center">
-        <h1>..::ÁrÉnItÁ .´´´ ÁmíGáS x CrÉw::..</h1>
-      </div>
-    </div>
-  </section>
-  <section id="contenido">
-    <div class="container">
-      <div class="col-md-2 recientes">
-        <a href="" class="fotos">Fotos Recientes</a>
-        <img id="foto1" draggable="true" ondragstart="drag(event)" src="img/jarcor.jpg">
-        <img id="foto2" draggable="true" ondragstart="drag(event)" src="img/foto_0920140822124434.jpg" alt="">
-        <img id="foto3" draggable="true" ondragstart="drag(event)" src="img/i-62869.jpeg" alt="">
-        <img id="foto4" draggable="true" ondragstart="drag(event)" src="img/p3.jpg" alt="">
-      </div>
-      <div class="col-md-8">
-        <img src="img/m1_768_11MS.jpg" alt="">
-        <p>AqUi EStAáá Mi AmIgA ArEnItAáÁÁ</p>
-      </div>
-      <div class="col-md-2 ff">
-        <a href="" class="fotos">Fotos Favoritas</a>
-        <div class="marco-foto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
-        <div class="marco-foto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
-        <div class="marco-foto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
-      </div>
-    </div>
-  </section>
-  <section id="dejar-posteo">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 text-center">
-          <strong>Deja tu comentario</strong>
-          <input id="nombre" type="text" placeholder="nombre">
-          <textarea name="comentario" id="cajaposteos" cols="30" rows="10"></textarea>
-          <button onclick="agregaPosteo()">Enviar</button>
+			</div>
 
-          <div id="contenedor-posteos" class="text-left">
-            <!--
-            <div class="posteo">
-              <strong>Nombre del usuario</strong>
-              <p>Este es un ejemplo nada mas</p>
-              <p class="corazon rojo"><i class="fa fa-heart" aria-hidden="true"></i></p>
-              <hr>
-            </div>
-            -->
+		</div>
+	</header>
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <script src="js/main.js"></script>
-</body>
-</html>
+	<!-- sección collage-->
 
+	<section class="container" id="collage">
+		<div class="row" class="col-md-12 col-sm-12 col-xs-12">
+
+			<div id="foto1" class="col-md-12 col-sm-12 col-xs-12" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+			<div id="foto2" class="col-md-12 col-sm-12 col-xs-12" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+			<div id="foto3" class="col-md-12 col-sm-12 col-xs-12" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+			<div id="foto4" class="col-md-12 col-sm-12 col-xs-12" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+			<div id="foto5" class="col-md-12 col-sm-12 col-xs-12" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+
+		</div >
+
+	</section>
+
+	<!-- sección texto medium-->
+
+	<section  id="texto" class="container" class="col-md-12 col-sm-12 col-xs-12">
+
+		<div class="row" class="col-md-12 col-sm-12 col-xs-12">
+			<i class="fa fa-camera" aria-hidden="true"></i>
+			<h1>PHOTO BOOTH</h1>
+		</div>
+
+	</section>
+
+	<!-- sección fotos a elegir-->
+
+	<section class="container" id="fotos" class="col-md-12 col-sm-12 col-xs-12">
+		<div class="row" class="col-md-12 col-sm-12 col-xs-12">
+
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<img id="foto1" draggable="true" ondragstart="drag(event)" src="assets/img/foto1.jpg" alt="">
+				<img id="foto2" draggable="true" ondragstart="drag(event)" src="assets/img/foto2.jpg" alt="">
+				<img id="foto3" draggable="true" ondragstart="drag(event)" src="assets/img/foto3.jpg" alt="">
+				<img id="foto4" draggable="true" ondragstart="drag(event)" src="assets/img/foto4.jpg" alt="">
+				<img id="foto5" draggable="true" ondragstart="drag(event)" src="assets/img/foto5.jpg" alt="">
+				<img id="foto6" draggable="true" ondragstart="drag(event)" src="assets/img/foto6.jpg" alt="">
+				<img id="foto7" draggable="true" ondragstart="drag(event)" src="assets/img/foto7.jpg" alt="">
+				<img id="foto8" draggable="true" ondragstart="drag(event)" src="assets/img/foto8.jpg" alt="">
+				<img id="foto1" draggable="true" ondragstart="drag(event)" src="assets/img/foto9.jpg" alt="">
+				<img id="foto2" draggable="true" ondragstart="drag(event)" src="assets/img/foto10.jpg" alt="">
+				<img id="foto3" draggable="true" ondragstart="drag(event)" src="assets/img/foto11.jpg" alt="">
+				
+			</div>
+
+		</div>
+	</section>	
+
+	<!--footer-->
+
+	<footer class="container">
+
+		<div class="row">
+			<p>CAMERA ROLL</p>
+			<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			<p>FACES</p>
+			<p>RECENTS</p>
+		</div>
+
+	</footer>
+
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
