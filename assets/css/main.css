@@ -18,26 +18,43 @@ body{
 }
 
 #encabezado{
-	height: 50px;
+	height: 180px;
 }
 
 #logo-principal{
-	height: 50px;
+	height: 180px;
 }
 
 #logo-principal img{
 	width: 300px;
 }
 
-#inputs{
-	height: 50px;
+#inputs input,
+#pwd{
+	color: black;
 }
 
 #facebook{
-	height: 50px;
+	height: 180px;
+}
+
+#texto-ayuda{
+	height: 180px;
+}
+
+#boton{
+	height: 180px;
 }
 
 #boton button{
 	background-color: transparent;
 	width: 100px;
+}
+
+hr{
+	height: 180px;
+}
+
+footer{
+	height: 180px;
 }
