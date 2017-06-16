@@ -4,14 +4,14 @@
 	font-family: 'Pangolin', cursive; 
 }
 
-/*diseño header pd: no me resulto el background-color black :( */
+/*diseño header */
 
-header #encabezado{
+header{
 	background-color: black;
 	color: whitesmoke;
-	display: inline;
+	display: inline-block;
 	width: 100%;	
-	height: 150px;
+	height: 100px;
 }
 
 #header-text p{
@@ -23,56 +23,75 @@ header #encabezado{
 
 /*diseño collage*/
 
-#collage{
-	background-color:#A2A2AF;
-	height: 800px;
-}
 
 .photo1{
 	background-color: #A2A2AF;
-	min-width: 100px;
-	display: inline;
+	min-width: 300px;
+	display: inline-block;
 	min-height: 200px;
+	margin-left: 20px;
 }
 
 #photo2{
 	background-color: #A2A2AF;
-	width: 50px;
-	display: inline;
-	min-height: 100px;
+	width: 250px;
+	display: inline-block;
+	min-height: 200px;
 }
 
 #photo3{
 	background-color: #A2A2AF;
-	width: 80px;
-	display: inline;
-	min-height: 50px;
+	width: 380px;
+	display: inline-block;
+	min-height: 200px;
 }
 
 #photo4{
 	background-color: #A2A2AF;
-	width: 50px;
-	display: inline;
-	min-height: 40px;
+	width: 250px;
+	display: inline-block;
+	min-height: 300px;
+	margin-left: 20px;
 }
 
 #photo5{
 	background-color: #A2A2AF;
-	width: 40px;
-	display: inline;
-	min-height: 50px;
+	width: 600px;
+	display: inline-block;
+	min-height: 300px;
 }
 
 /*seccion texto medium*/
 
-
+#texto{
+	background-color: black;
+	color: #1F24CD;
+	text-align: center;
+	height: 150px;
+}
 
 
 /*diseño fotos*/
 
 #fotos img{
 	width: 250px;
+	height: 200px;
+	margin-left: 50px;
 }
+
+footer{
+	background-color: black;
+	color:#1F24CD;
+	display: inline-block;
+	width: 100%;
+	height: 150px;
+}
+
+footer p{
+	display: inline;
+	margin-left: 200px;
+}
+
 
 
 
