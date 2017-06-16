@@ -24,8 +24,8 @@ header #encabezado{
 /*diseño collage*/
 
 #collage{
-	background-color: red;
-	height: 500px;
+	background-color:#A2A2AF;
+	height: 800px;
 }
 
 .photo1{
@@ -39,26 +39,40 @@ header #encabezado{
 	background-color: #A2A2AF;
 	width: 50px;
 	display: inline;
+	min-height: 100px;
 }
 
 #photo3{
 	background-color: #A2A2AF;
 	width: 80px;
 	display: inline;
+	min-height: 50px;
 }
 
-#photo3{
+#photo4{
 	background-color: #A2A2AF;
 	width: 50px;
 	display: inline;
+	min-height: 40px;
 }
 
 #photo5{
 	background-color: #A2A2AF;
 	width: 40px;
 	display: inline;
+	min-height: 50px;
 }
 
+/*seccion texto medium*/
+
+
+
+
+/*diseño fotos*/
+
+#fotos img{
+	width: 250px;
+}
 
 
 
