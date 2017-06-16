@@ -11,6 +11,7 @@ header #encabezado{
 	color: whitesmoke;
 	display: inline;
 	width: 100%;	
+	height: 150px;
 }
 
 #header-text p{
@@ -21,3 +22,43 @@ header #encabezado{
 }
 
 /*diseño collage*/
+
+#collage{
+	background-color: red;
+	height: 500px;
+}
+
+.photo1{
+	background-color: #A2A2AF;
+	min-width: 100px;
+	display: inline;
+	min-height: 200px;
+}
+
+#photo2{
+	background-color: #A2A2AF;
+	width: 50px;
+	display: inline;
+}
+
+#photo3{
+	background-color: #A2A2AF;
+	width: 80px;
+	display: inline;
+}
+
+#photo3{
+	background-color: #A2A2AF;
+	width: 50px;
+	display: inline;
+}
+
+#photo5{
+	background-color: #A2A2AF;
+	width: 40px;
+	display: inline;
+}
+
+
+
+
