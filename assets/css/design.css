@@ -7,7 +7,7 @@
 /*diseño header */
 
 header{
-	background-color: black;
+	background-color: #2B2C2E;
 	color: whitesmoke;
 	display: inline-block;
 	width: 100%;	
@@ -64,7 +64,7 @@ header{
 /*seccion texto medium*/
 
 #texto{
-	background-color: black;
+	background-color: #2B2C2E;
 	color: #1F24CD;
 	text-align: center;
 	height: 150px;
@@ -80,7 +80,7 @@ header{
 }
 
 footer{
-	background-color: black;
+	background-color: #2B2C2E;
 	color:#1F24CD;
 	display: inline-block;
 	width: 100%;
